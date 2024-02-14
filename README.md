@@ -1,6 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/5d33056c21c633166a6a/maintainability)](https://codeclimate.com/github/TominVadim/frontend-project-44/maintainability)
 
-### Aciinema record
+### Asciinema record
 brain-even:https://asciinema.org/a/DIqGXyLyXFRBiAonpN3Hr6Qk3
 
 brain-calc:https://asciinema.org/a/PjDbxGfSkWkPXGWarriwOcQt7
@@ -8,3 +8,5 @@ brain-calc:https://asciinema.org/a/PjDbxGfSkWkPXGWarriwOcQt7
 brain-gcd:https://asciinema.org/a/0PxULkc0JReqHJYE2eiJjzThy
 
 brain-progression:https://asciinema.org/a/8llHXOdgOXBOeV56GUpXevHJZ
+
+brain-prime:https://asciinema.org/a/EqcpCeCMSsyq0UoUINB7j8gJs
