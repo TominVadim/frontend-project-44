@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameBody from '../src/gamebody.js';
+import gameBody from '../src/index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
