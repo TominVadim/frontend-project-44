@@ -1,13 +1,13 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Brain-games",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "author": "",
+  "author": "TominVadim",
   "license": "ISC",
   "bin": {
     "brain-games": "./bin/brain-games.js",
