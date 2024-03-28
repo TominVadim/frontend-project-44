@@ -1,15 +1,26 @@
 #!/usr/bin/env node
 import gameBody from '../index.js';
 
-function task() {
-  const num = Math.round(Math.random() * 50);
-
-  for (let i = 2; i <= Math.sqrt(num); i += 1) {
-    if (num % i === 0) {
-      return [num, 'no'];
-    }
+function isPrimeNumber(num) {
+  if (num === 1) {
+    return false;
   }
-  return [num, 'yes'];
+  let i = 2;
+  while (i < num) {
+    if (num % i === 0 && num !== i) {
+      return false;
+    }
+    i += 1;
+  }
+  return true;
+}
+
+function task() {
+  const num = Math.ceil(Math.random() * 1000);
+
+  const correct = isPrimeNumber(num) ? 'yes' : 'no';
+
+  return [num, correct];
 }
 
 export default function brainPrime() {
